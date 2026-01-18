@@ -96,16 +96,9 @@ a {
   margin-top: 30px;
   font-size: 27px;
 }
-.home p {
+.home h4 {
   margin-left: 20px;
   margin-top: 20px;
-  width: 50%;
-}
-.home-doctor img {
-  display: none;
-}
-.home-doctor {
-  display: none;
 }
 .about {
   width: 98%;
@@ -271,9 +264,7 @@ a {
   width: 70%;
   min-height: 100px;
   margin: auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  display: flex;
   margin-top: 35px;
 }
 
@@ -282,12 +273,9 @@ a {
   background-color: #efebeb;
   margin: 10px;
   text-align: center;
-  box-shadow:
-    rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px,
-    rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px,
-    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .third .serv img {
   width: 42px;
@@ -326,12 +314,9 @@ a {
   background-color: #efebeb;
   margin: 10px;
   text-align: center;
-  box-shadow:
-    rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px,
-    rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px,
-    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .four .serv img {
   width: 42px;
@@ -371,9 +356,7 @@ a {
 .doctor .five {
   width: 80%;
   margin: auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  display: flex;
 
   margin-top: 30px;
 }
@@ -387,12 +370,9 @@ a {
   margin: 8px;
   background-color: rgb(255, 255, 255);
   padding: 10px;
-  box-shadow:
-    rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px,
-    rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px,
-    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .five .dr h2 {
   margin-top: 10px;
@@ -408,8 +388,7 @@ a {
   color: white;
   font-weight: 600;
   border-radius: 8px;
-  box-shadow:
-    rgba(0, 0, 0, 0.3) 0px 19px 38px,
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
@@ -430,12 +409,9 @@ a {
   margin: 8px;
   background-color: rgb(255, 255, 255);
   padding: 10px;
-  box-shadow:
-    rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px,
-    rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px,
-    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .six .dr h2 {
   margin-top: 10px;
@@ -451,8 +427,7 @@ a {
   color: white;
   font-weight: 600;
   border-radius: 8px;
-  box-shadow:
-    rgba(0, 0, 0, 0.3) 0px 19px 38px,
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
@@ -582,311 +557,7 @@ input[type="date"] {
   font-size: 13px;
 }
 
-.menu-toggle {
-  display: none;
-  font-size: 30px;
-  cursor: pointer;
-}
-.home-desktop-img {
-  display: block;
-  max-width: 100%;
-}
 
-.home-mobile-img {
-  display: none;
-}
-
-.health {
-  text-align: center;
-}
-
-@media only screen and (max-width: 500px) {
-  .container {
-    width: 100%;
-  }
-
-  .logo-nav-bar {
-    flex-direction: column; /* 👈 IMPORTANT */
-    align-items: flex-start;
-    height: 80px;
-    margin: auto;
-  }
-
-  /* logo row (PS Hospital + ☰) */
-  .logo {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin: auto;
-  }
-  .logo h1 {
-    align-items: flex-start;
-    font-size: 13px;
-    margin-top: 28px;
-  }
-  .logo img {
-    width: 50px;
-    height: auto;
-    margin: 10px;
-    margin-top: 10px;
-    bd
-  }
-
-  /* menu icon right */
-
-  /* nav bar खाली आण */
-.nav-bar{
- width: 100%;
-}
-  /* menu list vertical + below logo */
-  .nav-bar ul {
-    flex-direction: row;
-    width: 345px;
-    background-image: linear-gradient(
-      to right,
-      rgb(103, 103, 203),
-      rgb(255, 255, 255)
-    ); /* 👈 PS Hospital च्या खाली gap */
-  }
-
-  .nav-bar ul li {
-    width: 100%;
-    justify-content: center;
-  }
-  .nav-bar ul li a {
-    font-size: 8.4px;
-  }
-  .home {
-    background-image: url(/images/phone-home.jpg);
-    background-size: cover;
-    display: block;
-  }
-
-  .home .health {
-    justify-items: center;
-    align-items: center;
-  }
-  .home .health h2 {
-    font-size: 18px;
-    margin-bottom: 30px;
-    margin-right: 85px;
-  }
-  .home .health img {
-    margin-top: 1px;
-  }
-
-  .home p {
-    width: 80%;
-    font-size: 11px;
-    justify-items: center;
-    align-items: center;
-    padding: 10px;
-    margin: auto;
-    margin-top: 20px;
-    word-spacing: 2px;
-  }
-
-  .home-doctor img {
-    display: block;
-    width: 120px;
-    height: 180px;
-    position: absolute;
-  }
-  .home .home-doctor {
-    width: 85%;
-    margin: auto;
-    display: flex;
-    justify-items: center;
-  }
-  .home .back-home {
-    width: 100%;
-    height: 130px;
-    border: 1px solid #000;
-    background-color: #253e6b;
-    margin-top: 50px;
-    border-radius: 20px;
-  }
-  .home-doctor .best {
-    position: absolute;
-    margin-left: 140px;
-    font-size: 12px;
-    margin-top: 80px;
-    color: white;
-  }
-
-  .about {
-    width: 100%;
-  }
-  .about .staff {
-    display: none;
-  }
-  .about .About {
-    width: 100%;
-  }
-  .About h1 {
-    font-size: 20px;
-    text-align: center;
-  }
-  .about .About p {
-    width: 100%;
-    margin-top: 10px;
-    font-size: 10px;
-  }
-
-  .About .check1 {
-    font-size: 11px;
-    margin-top: 10px;
-  }
-
-  .About .check2 {
-    font-size: 11px;
-  }
-
-  .About .check3 {
-    font-size: 11px;
-  }
-
-  .About button {
-    text-align: center;
-    margin-left: 90px;
-    margin-top: 30px;
-  }
-  .department {
-    width: 100%;
-  }
-  .department .logo p {
-    display: none;
-  }
-  .department .logo h1 {
-   text-align: center;
-   margin: auto;
-  }
-
-  .first,
-  .second {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  /* parent full width */
-  .department .first,
-  .department .second {
-    width: 100%;
-    display: block;
-  }
-
-  /* प्रत्येक card full width */
-  .department .first .depa,
-  .department .second .depa {
-    width: 90%;
-    height: 360px;
-    margin: 10px auto;
-    box-sizing: border-box;
-    border-radius: 10px;
-  }
-
-  /* image full card मध्ये */
-  .department .depa img {
-    width: 100%;
-    height: auto;
-  }
-
-  /* BUTTON FORCE VISIBLE + CENTER */
-  .department .depa h2 {
-    font-size: 16px;
-  }
-
-  /* Department description */
-  .department .depa p {
-    font-size: 12px;
-  }
-
-  /* Button text */
-  .department .depa button {
-    font-size: 13px;
-  margin-left: 90px;
-  }
-
-  .services {
-    height: 920px;
-  }
-
-  .services .logo p {
-    display: none;
-  }
-  .services .logo h1 {
-    margin-left: 110px;
-  }
-  .services .third {
-    width: 100%;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    font-size: 3vw;
-  }
-  .services .third .serv {
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 0px;
-  }
-
-  .doctor {
-    width: 100%;
-    height: auto;
-    font-size: 2.7vw;
-  }
-  .doctor .logo h1 {
-    text-align: center;
-    margin: auto;
-  }
-  .doctor .five {
-    width: 100%;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 8, 1fr;
-  }
-
-  .doctor .five .dr {
-    width: 90%;
-    height: 350px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 0px;
-    margin: auto;
-    margin-bottom: 10px;
-  }
-  .doctor .five .dr img {
-    width: 95%;
-  }
-
-  .appointment {
-    width: 100%;
-  }
-  .appointment .logo h1 {
-    text-align: center;
-    margin: auto;
-  }
-  .appointment img {
-    display: none;
-  }
-  .appointment .info {
-    width: 100%;
-    font-size: 2.2vw;
-    text-align: justify;
-    align-items: center;
-    margin: auto;
-  }
-  .appointment input,
-  select {
-    width: 180px;
-    text-align: justify;
-  }
-
-  .footer {
-    width: 100%;
-  }
+@media only screen and (max-width:600px){
+  
 }
